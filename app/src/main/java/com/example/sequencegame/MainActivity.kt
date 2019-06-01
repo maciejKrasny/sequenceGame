@@ -3,14 +3,14 @@ package com.example.sequencegame
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.constraint.ConstraintLayout
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
-import android.widget.FrameLayout
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var mMainNav : BottomNavigationView
-    private lateinit var mMainFrame : FrameLayout
+    private lateinit var mMainFrame : ConstraintLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
